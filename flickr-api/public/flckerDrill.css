@@ -1,0 +1,69 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+body
+{
+    background: #f2f2f2;
+    font-family: 'Open Sans', sans-serif;
+}
+#photosContainer
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto 0;
+}
+#homePageHeader
+{
+    margin: auto 50px;
+    align-items: center;
+    color: #00B4CC;
+    align-items: center;
+}
+#showUploadedImagesButton{
+  margin: auto 20px;  
+  width: 200px;
+  height: 25px;
+  border: 1px solid #00B4CC;
+  background: #00B4CC;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 15px;
+}
+#submitButton, #uploadButton
+{
+  margin: auto 20px;  
+  width: 100px;
+  height: 25px;
+  border: 1px solid #00B4CC;
+  background: #00B4CC;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 15px;
+}
+#inputSearch{
+    width: 50vw;
+  border: 3px solid #00B4CC;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9DBFAF;
+  margin: auto 5px ;
+}
+#imageDescription, #uploadImage{
+    width: 24vw;
+    border: 2px solid #00B4CC;
+    padding: 5px;
+    height: 20px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #9DBFAF;
+    margin: auto 5px ;
+}
+.imageBox
+{
+    height: 350px;
+    width: 350px;
+}
